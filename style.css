@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    margin: auto;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px rgb(16, 16, 16);
+    background-color: rgb(196, 255, 255);
+}
+
+section *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#output{
+    font-size: 25px;
+}
+
+button{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(225, 0, 0);
+}
